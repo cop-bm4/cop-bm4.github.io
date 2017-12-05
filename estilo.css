@@ -1,6 +1,6 @@
 
-h1 { color: Red; }
-h2 { color: blue; font-size: 12pt;}
+h1 { color: Red; position: center;}
+h2 { color: blue; font-size: 20pt;}
 
 
 	#box1 {
@@ -12,5 +12,5 @@ h2 { color: blue; font-size: 12pt;}
 	#dia1{
 
 
-		
+
 	}
