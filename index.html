@@ -3,22 +3,28 @@
 <html>
 <head>
 	<title>COP-BM4</title>
-	  <link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
 
 </head>
 	
 
-	<body>
+<body>
 <h1>Calendário COP-BM04</h1>
-<canvas id="myCanvas" width="400" height="200" style="border:1px solid #d3d3d3;">
+
+<canvas id="myCanvas" width="400" height="200" style="border:3px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "20px Arial";
+ctx.fillText("Dia 01",0,20);
 ctx.fillText("Evento: Transporte de pessoal ",0,50);
 ctx.fillText("Local:  ",0,70);
+<<<<<<< HEAD
+=======
+ctx.fillText("Local:  ",0,90);	
+>>>>>>> 03a591bf17bc32cace7c57ecad9282f644f8c6d8
 </script>
 
 </body>
